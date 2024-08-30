@@ -20,3 +20,5 @@ docker run --rm -it -v "${PWD}/mount:/root/mount" --name rustlings rustlings
 ```
 This will create a mounted directory to save your progress and have a container with rust while being able to use the
 IDE of your choosing on the host machine
+
+Note: to rerun a case, use l + enter + c
