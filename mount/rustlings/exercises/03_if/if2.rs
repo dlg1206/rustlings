@@ -1,10 +1,12 @@
 // TODO: Fix the compiler error on this function.
 fn foo_if_fizz(fizzish: &str) -> &str {
+    // need return in if else statements
     if fizzish == "fizz" {
-        "foo"
-    } else {
-        1
+        return "foo";
+    } else if fizzish == "fuzz" {
+        return "bar";
     }
+    "baz"
 }
 
 fn main() {
